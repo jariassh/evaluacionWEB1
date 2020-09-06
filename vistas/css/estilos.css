@@ -1,6 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	min-height: 100%;
 	position: relative;
+}
+
+#salir a:hover {
+	background-color: #FFBD00;
+	font-weight: bold;
+	color: #FFF;
 }
 
 a {
@@ -8,11 +19,17 @@ a {
 }
 
 a:hover {
-	color: #FFBD00;
+	text-shadow: 3px 3px 3px #FFBD00;
 }
 
 .active {
 	background-color: #FFBD00 !important;
+}
+
+#saludo p {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 70px;
+	text-align: center;
 }
 
 footer {

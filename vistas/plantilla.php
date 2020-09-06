@@ -3,10 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Evaluación Web 1</title>
+	<title>TALLER EVALUACION | WEB 1 | CESDE</title>
+
+	<!-- Website Favicons -->
+	<link rel="icon" type="image/png" href="vistas/img/icon.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="vistas/img/icon.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="vistas/img/icon.png" sizes="64x64">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<!-- Fonts Google -->
+	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 
 	<!-- CSS Styles -->
 	<link rel="stylesheet" href="vistas/css/estilos.css">
@@ -25,12 +33,27 @@
 </head>
 <body>
 
-	<div class="container-fluid" id="logo">
-		<a href="#">
-			<img class="mx-auto d-block py-3" src="vistas/img/logo.png">
-		</a>
+<!--==========================
+	=            LOGO            =
+	===========================-->
+	<div class="container-fluid" id="cabecera">
+		<div class="row justify-content-center">
+			<div class="col-10">			
+				<a href="#">
+					<img class="mx-auto d-block py-4" src="vistas/img/logo.png">
+				</a>				
+			</div>
+			<div class="col-2 mt-3" id="salir">			
+				<a href="#" class="btn btn-light">Cerrar Sesión</a>					
+			</div>			
+		</div>
+		
+		
 	</div>
 
+	<!--==============================
+	=            BOTONERA            =
+	===============================-->
 	<div class="container-fluid bg-light">
 		<div class="container">
 			<ul class="nav nav-justified py-2 nav-pills">
@@ -57,6 +80,22 @@
 			</ul>
 		</div>
 	</div>
+
+	<!--===============================
+	=            CONTENIDO            =
+	================================-->
+	<div class="container-fluid">
+		<div class="container">
+
+			<?php 
+
+			include 'paginas/inicio.php';
+
+			?>
+			
+		</div>
+	</div>
+	
 
 
 <footer class="text-center py-4">
