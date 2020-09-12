@@ -16,17 +16,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center">
+		<div class="row d-flex justify-content-center">
 			<div class="card mx-2" id="promoSpring1">
-			  <div class="card-header d-flex justify-content-center"><span class="pr-2"><i class="fas fa-gift"></i></span>Promocion 1</div>
+			  <div class="card-header"><span class="pr-2"><i class="fas fa-gift"></i></span>Promocion 1</div>
 			  <div class="card-body text-dark">
 			    <h5 class="card-title">Compra 3 Pares:</h5>
 			    <p class="card-text">Si el cliente adquirió tan solo 3 pares de zapatos. Seleccione esta opción para descubrir su descuento.</p>
 			  </div>
-			  <div class="card-footer d-flex justify-content-center">
+			  <div class="card-footer d-flex justify-content-center" >
 				  	<form>
-				  		<div class="input-group">
-				  			<div class="input-group-text">
+				  		<div class="input-group text-center" >
+				  			<div class="input-group-text" style="margin: 0 auto;">
 					          <input type="radio">
 					        </div>
 				  		</div>
@@ -42,7 +42,7 @@
 			  <div class="card-footer d-flex justify-content-center">
 				  	<form>
 				  		<div class="input-group">
-				  			<div class="input-group-text">
+				  			<div class="input-group-text" style="margin: 0 auto;">
 					          <input type="radio">
 					        </div>
 				  		</div>
@@ -58,7 +58,7 @@
 			  <div class="card-footer d-flex justify-content-center">
 				  	<form>
 				  		<div class="input-group">
-				  			<div class="input-group-text">
+				  			<div class="input-group-text" style="margin: 0 auto;">
 					          <input type="radio">
 					        </div>
 				  		</div>

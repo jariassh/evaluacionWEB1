@@ -25,18 +25,22 @@
         border-right: 1px solid #aaa;
         margin-bottom: 30px;
     }
+    #enuciadoMatematico p {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #formMatematico {
+        display: flex;
+        justify-content: center;
+    }
     #formularioMatematico input {
-        width: 200px;
+        width: 300px;
         height: 35px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
-    }
-    #enuciadoMatematico p {
-        text-align: center;
-        font-size: 1.2em;
-        font-family: 'Kite+One', sans-serif;
     }
     #btnsMatematico {
         width: 100%;
@@ -189,18 +193,22 @@
         margin: 0 0 30px 50px;
         float: left;
     }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #formMatematico {
+        display: flex;
+        justify-content: center;
+    }
     #formularioMatematico input {
-        width: 200px;
+        width: 300px;
         height: 35px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
-    }
-    #enuciadoMatematico p {
-        text-align: justify;
-        font-size: 1.2em;
-        font-family: 'Kite+One', sans-serif;
     }
     #btnsMatematico {
         width: 100%;
@@ -349,18 +357,22 @@
         margin: 0 0 30px 50px;
         float: left;
     }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #formMatematico {
+        display: flex;
+        justify-content: center;
+    }
     #formularioMatematico input {
-        width: 200px;
+        width: 300px;
         height: 35px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
-    }
-    #enuciadoMatematico p {
-        text-align: justify;
-        font-size: 1.2em;
-        font-family: 'Kite+One', sans-serif;
     }
     #btnsMatematico {
         width: 100%;
@@ -528,7 +540,7 @@
         width: 25rem;
     }
 }
-/* Revisamos pantallas SM ( >= 576 PX < 767 PX) */
+/* Revisamos pantallas SM ( > 576 PX < 767 PX) */
 
 @media (min-width: 576px) and (max-width: 767px) {
     #saludo {
@@ -554,6 +566,10 @@
     }
     #contentFormMatematico {
         height: 240px;
+    }
+    #formMatematico {
+        display: flex;
+        justify-content: center;
     }
     #formularioMatematico input {
         width: 400px;
@@ -737,7 +753,7 @@
 }
 /* Revisamos pantallas XS ( < 576 PX) */
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     #saludo {
         min-height: calc(100vh - 200px - 60px);
         justify-content: center;

@@ -6,17 +6,19 @@
 					<p>Hacer un programa en PHP que permita mostrar en pantalla la suma, resta, multiplicación, de dos números enteros almacenados en 2, variables diferentes (utilice formularios HTML).</p>
 				</div>
 			</div>
-			<div class="row justify-content-center bg-light" id="contentFormMatematico">
-				<div>
+			<div class="row bg-light" id="contentFormMatematico">
+				<div class="col-12" id="formMatematico">
 					<form class="pt-5 bg-light" id="formularioMatematico" method="post">
 						<input type="text" class="form-control" placeholder="15">
 						<input type="text" class="form-control" placeholder="19">
 					</form>
 				</div>
-				<div class="bg-light" id="btnsMatematico">
-						<button type="button" class="btn btn-info">Restar</button>
-						<button type="button" class="btn btn-warning active" id="btnSumar">Sumar</button>
-						<button type="button" class="btn btn-info">Multiplicar</button>
+				<div class="col-12">
+					<div class="bg-light" id="btnsMatematico">
+							<button type="button" class="btn btn-info">Restar</button>
+							<button type="button" class="btn btn-warning active" id="btnSumar">Sumar</button>
+							<button type="button" class="btn btn-info">Multiplicar</button>
+					</div>
 				</div>
 			</div>
 		</div>
