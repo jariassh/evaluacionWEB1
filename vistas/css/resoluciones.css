@@ -1,0 +1,939 @@
+/* Revisamos pantallas XL ( >= 1200 PX) */
+
+@media (min-width: 1200px) {
+    #menu a {
+        font-weight: bold;
+    }
+    #saludo {
+        min-height: calc(100vh - 200px - 50px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    #saludo h4 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    #centraContenidoMatematico {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    #contenidoMatematico1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #formularioMatematico input {
+        width: 200px;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #enuciadoMatematico p {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #btnsMatematico {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #btnsMatematico button {
+        width: 100px !important;
+    }
+    #btnSumar {
+        margin: 0 20px;
+    }
+    #contentCardMartematico {
+        min-height: calc(100vh - 200px - 250px);
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto 0;
+        display: flex;
+    }
+    #contentCardMartematico i {
+        color: #FFBD00;
+    }
+    #contenidoGym1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoGym p {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        margin: 0 80px;
+    }
+    #cardsGym {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: block;
+    }
+    #cardsGym1 {
+        max-width: 20rem;
+        margin: 20px 50px 15px 0;
+    }
+    #cardsGym1 p {
+        font-size: 30px;
+    }
+    #cardsGym2 {
+        max-width: 20rem;
+        margin: 0 50px 10px 0;
+    }
+    #contenidoSpring1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoSpring p {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        padding: 0 35px;
+    }
+    #promoSpring1 {
+        max-width: 14rem;
+    }
+    #promoSpring2 {
+        max-width: 14rem;
+    }
+    #promoSpring3 {
+        max-width: 14rem;
+    }
+    #resultadoSpring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: 100px;
+        ;
+    }
+    #resultadoSpring h1 {
+        font-size: 60px;
+    }
+    #contenidoPostobon1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #inputHrsPostobon {
+        width: 300px;
+    }
+    #cantidadHoras input {
+        text-align: center;
+    }
+    .contentSalarioPostobon {
+        min-height: calc(100vh - 200px - 50px);
+        margin-right: 10px;
+    }
+    #descripcionPago table {
+        border: collapse;
+        width: 100%;
+    }
+    #descripcionPago table thead tr th {
+        border: 0;
+    }
+    #descripcionPago table tbody {
+        display: block;
+        text-align: center;
+    }
+    #descripcionPago table tbody tr {
+        display: table;
+        width: 100%;
+    }
+}
+/* Revisamos pantallas LG ( >= 992 PX < 1199 PX) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #menu a {
+        font-weight: bold;
+    }
+    #saludo {
+        min-height: calc(100vh - 200px - 50px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    #saludo h4 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    #centraContenidoMatematico {
+        justify-content: center;
+        display: inline-flex;
+        margin: 0 auto;
+    }
+    #contentCardMartematico {
+        min-height: calc(100vh - 200px - 130px);
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto 0;
+        display: inline-flex;
+    }
+    #contenidoMatematico1 {
+        border-right: 1px solid #aaa;
+        margin: 0 0 30px 50px;
+        float: left;
+    }
+    #formularioMatematico input {
+        width: 200px;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #btnsMatematico {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #btnsMatematico button {
+        width: 100px !important;
+    }
+    #btnSumar {
+        margin: 0 20px;
+    }
+    #contenidoMatematico2 {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #contentCardMartematico i {
+        color: #FFBD00;
+    }
+    #contenidoGym1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoGym p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        margin: 0 40px;
+    }
+    #cardsGym {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: block;
+    }
+    #cardsGym1 {
+        max-width: 20rem;
+        margin: 20px 50px 15px 0;
+    }
+    #cardsGym1 p {
+        font-size: 30px;
+    }
+    #cardsGym2 {
+        max-width: 20rem;
+        margin: 0 50px 10px 0;
+    }
+    #contenidoSpring1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoSpring p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        padding: 0 35px;
+    }
+    #promoSpring1 {
+        max-width: 14rem;
+        margin-bottom: 15px;
+    }
+    #promoSpring2 {
+        max-width: 14rem;
+        margin-bottom: 15px;
+    }
+    #promoSpring3 {
+        max-width: 29rem;
+    }
+    #resultadoSpring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: 100px;
+    }
+    #resultadoSpring h1 {
+        font-size: 60px;
+    }
+    #contenidoPostobon1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #inputHrsPostobon {
+        width: 300px;
+    }
+    #cantidadHoras input {
+        text-align: center;
+    }
+    .contentSalarioPostobon {
+        min-height: calc(100vh - 200px - 50px);
+        margin-right: 10px;
+    }
+    #descripcionPago table {
+        border: collapse;
+        width: 100%;
+    }
+    #descripcionPago table thead tr th {
+        border: 0;
+    }
+    #descripcionPago table tbody {
+        display: block;
+        text-align: center;
+    }
+    #descripcionPago table tbody tr {
+        display: table;
+        width: 100%;
+    }
+}
+/* Revisamos pantallas MD ( >= 768 PX < 991 PX) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #saludo {
+        min-height: calc(100vh - 200px - 60px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    #saludo h4 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    #centraContenidoMatematico {
+        justify-content: center;
+        display: inline-flex;
+        margin: 0 auto;
+    }
+    #contentCardMartematico {
+        min-height: calc(100vh - 200px - 130px);
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto 0;
+        display: inline-flex;
+    }
+    #contenidoMatematico1 {
+        border-right: 1px solid #aaa;
+        margin: 0 0 30px 50px;
+        float: left;
+    }
+    #formularioMatematico input {
+        width: 200px;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #btnsMatematico {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #btnsMatematico button {
+        width: 100px !important;
+    }
+    #btnSumar {
+        margin: 0 20px;
+    }
+    #contenidoMatematico2 {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #contentCardMartematico i {
+        color: #FFBD00;
+    }
+    #contenidoGym1 {
+        margin-bottom: 30px;
+    }
+    #enuciadoGym {
+        width: 100%;
+    }
+    #enuciadoGym p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        margin: 0 30px;
+    }
+    #cardsGym {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: block;
+    }
+    #cardsGym1 {
+        max-width: 20rem;
+        margin: 20px 50px 15px 0;
+    }
+    #cardsGym1 p {
+        font-size: 30px;
+    }
+    #cardsGym2 {
+        max-width: 20rem;
+        margin: 0 50px 10px 0;
+    }
+    #contenidoSpring1 {
+        margin-bottom: 30px;
+    }
+    #enuciadoSpring p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        padding: 0 35px;
+    }
+    #inputSpring {
+        width: 50%;
+    }
+    #promoSpring1 {
+        max-width: 22rem;
+        margin-bottom: 15px;
+    }
+    #promoSpring2 {
+        max-width: 22rem;
+        margin-bottom: 15px;
+    }
+    #promoSpring3 {
+        max-width: 45rem;
+    }
+    #resultadoSpring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: 100px;
+        margin-bottom: 25px;
+    }
+    #resultadoSpring h1 {
+        font-size: 60px;
+    }
+    #contenidoPostobon1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoPostobon p {
+        text-align: justify;
+    }
+    #inputHrsPostobon {
+        width: 300px;
+    }
+    #cantidadHoras input {
+        text-align: center;
+    }
+    .contentSalarioPostobon {
+        min-height: calc(100vh - 200px - 50px);
+        margin-right: 10px;
+    }
+    #descripcionPago table {
+        border: collapse;
+        width: 100%;
+    }
+    #descripcionPago table thead tr th {
+        border: 0;
+    }
+    #descripcionPago table tbody {
+        display: block;
+        text-align: center;
+    }
+    #descripcionPago table tbody tr {
+        display: table;
+        width: 100%;
+    }
+    #contentMobileBancol {
+        margin-bottom: 30px;
+    }
+    #formBancol1 {
+        text-align: center;
+        display: flex;
+        justify-content: right;
+    }
+    #formBancol2 {
+        text-align: center;
+        display: flex;
+        justify-content: left;
+    }
+    .formBancol_MD1 {
+        padding: 30px 20px 10px 20px;
+    }
+    .formBancol_MD2 {
+        padding: 30px 20px 10px 20px;
+    }
+    .table_wraper {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #contentA {
+        float: left;
+        margin-bottom: 20px;
+    }
+    #contentB {
+        float: left;
+        margin-bottom: 20px;
+    }
+    #contentC {
+        display: flex;
+        justify-content: center;
+    }
+    #cardSucursalA {
+        width: 15rem;
+    }
+    #cardSucursalB {
+        width: 15rem;
+    }
+    #cardSucursalC {
+        width: 25rem;
+    }
+}
+/* Revisamos pantallas SM ( >= 576 PX < 767 PX) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #saludo {
+        min-height: calc(100vh - 200px - 60px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    #saludo h4 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 60px;
+        text-align: center;
+    }
+    #contenidoMatematico1 {
+        margin-bottom: 15px;
+        float: left;
+    }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.4em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #contentFormMatematico {
+        height: 240px;
+    }
+    #formularioMatematico input {
+        width: 400px;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #btnsMatematico {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #btnsMatematico button {
+        width: 150px !important;
+    }
+    #btnSumar {
+        margin: 0 20px;
+    }
+    #contenidoMatematico2 {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #contentCardMartematico {
+        width: 75%;
+        text-align: center;
+    }
+    #contentCardMartematico i {
+        color: #FFBD00;
+    }
+    #contenidoGym1 {
+        margin-bottom: 30px;
+    }
+    #enuciadoGym {
+        width: 100%;
+    }
+    #enuciadoGym p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        margin: 0 30px;
+    }
+    #cardsGym {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: block;
+    }
+    #cardsGym1 {
+        max-width: 20rem;
+        margin: 20px 50px 15px 0;
+    }
+    #cardsGym1 p {
+        font-size: 30px;
+    }
+    #cardsGym2 {
+        max-width: 20rem;
+        margin: 0 50px 10px 0;
+    }
+    #contenidoSpring1 {
+        margin-bottom: 15px;
+    }
+    #enuciadoSpring p {
+        text-align: justify;
+        font-size: 1.3em;
+        font-family: 'Kite+One', sans-serif;
+        padding: 0 35px;
+    }
+    #inputSpring {
+        width: 65%;
+    }
+    #promoSpring1 {
+        max-width: 85%;
+        margin-bottom: 15px;
+    }
+    #promoSpring2 {
+        max-width: 85%;
+        margin-bottom: 15px;
+    }
+    #promoSpring3 {
+        max-width: 85%;
+    }
+    #resultadoSpring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: 100px;
+        margin-bottom: 25px;
+    }
+    #resultadoSpring h1 {
+        font-size: 60px;
+    }
+    #contenidoPostobon1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoPostobon p {
+        text-align: justify;
+        font-size: 1.3em;
+    }
+    #inputHrsPostobon {
+        width: 350px;
+    }
+    #cantidadHoras input {
+        text-align: center;
+    }
+    #descripcionPago table {
+        border: collapse;
+        width: 100%;
+    }
+    #descripcionPago table thead tr th {
+        border: 0;
+    }
+    #descripcionPago table tbody {
+        display: block;
+        text-align: center;
+    }
+    #descripcionPago table tbody tr {
+        display: table;
+        width: 100%;
+    }
+    #contentMobileBancol {
+        min-width: 100vw margin-bottom: 30px;
+    }
+    #formBancol1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    #formBancol2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .formBancol_MD1 {
+        padding: 30px 20px 0px 20px;
+    }
+    .formBancol_MD2 {
+        padding: 0px 20px 10px 20px;
+    }
+    .input-group {
+        width: 350px;
+    }
+    .input-group input {
+        text-align: center;
+    }
+    .table_wraper {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #contentA {
+        float: left;
+        margin-bottom: 20px;
+    }
+    #contentB {
+        float: left;
+        margin-bottom: 20px;
+    }
+    #contentC {
+        display: flex;
+        justify-content: center;
+    }
+    #cardSucursalA {
+        width: 15rem;
+    }
+    #cardSucursalB {
+        width: 15rem;
+    }
+    #cardSucursalC {
+        width: 25rem;
+    }
+}
+/* Revisamos pantallas XS ( < 576 PX) */
+
+@media (max-width: 576px) {
+    #saludo {
+        min-height: calc(100vh - 200px - 60px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    #saludo h4 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 35px;
+        text-align: center;
+    }
+    #contenidoMatematico1 {
+        margin-bottom: 15px;
+        float: left;
+    }
+    #enuciadoMatematico p {
+        text-align: justify;
+        font-size: 1.3em;
+        font-family: 'Kite+One', sans-serif;
+    }
+    #formularioMatematico input {
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #btnsMatematico {
+        width: 200px;
+        justify-content: center;
+        display: block;
+        margin: 0 auto;
+    }
+    #btnsMatematico button {
+        width: 200px !important;
+        margin: 10px 0;
+    }
+    #contenidoMatematico2 {
+        justify-content: center;
+        display: flex;
+        margin: 30px auto 0;
+        margin-bottom: 30px;
+        float: left;
+    }
+    #contentCardMartematico {
+        width: 75%;
+        text-align: center;
+    }
+    #contentCardMartematico i {
+        color: #FFBD00;
+    }
+    #contenidoGym1 {
+        margin-bottom: 30px;
+    }
+    #enuciadoGym {
+        width: 100%;
+    }
+    #enuciadoGym p {
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: 'Kite+One', sans-serif;
+        margin: 0 30px;
+    }
+    #cardsGym {
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #cardsGym1 {
+        max-width: 20rem;
+    }
+    #cardsGym1 p {
+        font-size: 30px;
+    }
+    #cardsGym2 {
+        max-width: 20rem;
+    }
+    #contenidoSpring1 {
+        margin-bottom: 15px;
+    }
+    #enuciadoSpring p {
+        text-align: justify;
+        font-size: 1.3em;
+        font-family: 'Kite+One', sans-serif;
+        padding: 0 35px;
+    }
+    #inputSpring {
+        width: 65%;
+    }
+    #promoSpring1 {
+        max-width: 85%;
+        margin-bottom: 15px;
+    }
+    #promoSpring2 {
+        max-width: 85%;
+        margin-bottom: 15px;
+    }
+    #promoSpring3 {
+        max-width: 85%;
+    }
+    #resultadoSpring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        height: 100px;
+        margin-bottom: 25px;
+    }
+    #resultadoSpring h1 {
+        font-size: 60px;
+    }
+    #contenidoPostobon1 {
+        border-right: 1px solid #aaa;
+        margin-bottom: 30px;
+    }
+    #enuciadoPostobon p {
+        text-align: justify;
+        font-size: 1.3em;
+    }
+    #inputHrsPostobon {
+        width: 350px;
+    }
+    #cantidadHoras input {
+        text-align: center;
+    }
+    #descripcionPago table {
+        border: collapse;
+        width: 100%;
+    }
+    #descripcionPago table thead tr th {
+        border: 0;
+    }
+    #descripcionPago table tbody {
+        display: block;
+        text-align: center;
+    }
+    #descripcionPago table tbody tr {
+        display: table;
+        width: 100%;
+    }
+    #contentMobileBancol {
+        min-width: 100vw margin-bottom: 30px;
+    }
+    #formBancol1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    #formBancol2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .formBancol_MD1 {
+        padding: 30px 20px 0px 20px;
+    }
+    .formBancol_MD2 {
+        padding: 0px 20px 10px 20px;
+    }
+    .input-group {
+        width: 95%;
+    }
+    .input-group input {
+        text-align: center;
+    }
+    .table_wraper {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #contentA {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    #contentB {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    #contentC {
+        display: flex;
+        justify-content: center;
+    }
+    #cardSucursalA {
+        width: 25rem;
+    }
+    #cardSucursalB {
+        width: 25rem;
+    }
+    #cardSucursalC {
+        width: 25rem;
+    }
+}

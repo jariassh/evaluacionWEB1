@@ -1,30 +1,38 @@
 <div class="row">
-	<div class="col-8 mt-4" id="problema">
-		<div class="row justify-content-center">
-			<div class="w-75" id="enuciado">
-				<p>Hacer un programa en PHP que permita mostrar en pantalla la suma, resta, multiplicación, de dos números enteros almacenados en 2, variables diferentes (utilice formularios HTML).</p>
-			</div>			
+	<div id="centraContenidoMatematico">
+		<div class="col-12 col-md-7 col-lg-7 col-xl-7 mt-4" id="contenidoMatematico1">
+			<div class="row justify-content-center">
+				<div class="px-4" id="enuciadoMatematico">
+					<p>Hacer un programa en PHP que permita mostrar en pantalla la suma, resta, multiplicación, de dos números enteros almacenados en 2, variables diferentes (utilice formularios HTML).</p>
+				</div>
+			</div>
+			<div class="row justify-content-center bg-light" id="contentFormMatematico">
+				<div>
+					<form class="pt-5 bg-light" id="formularioMatematico" method="post">
+						<input type="text" class="form-control" placeholder="15">
+						<input type="text" class="form-control" placeholder="19">
+					</form>
+				</div>
+				<div class="bg-light" id="btnsMatematico">
+						<button type="button" class="btn btn-info">Restar</button>
+						<button type="button" class="btn btn-warning active" id="btnSumar">Sumar</button>
+						<button type="button" class="btn btn-info">Multiplicar</button>
+				</div>
+			</div>
 		</div>
-		<div class="row justify-content-center">
-			<div>
-				<form class="my-3" id="formularioMatematico">
-					<input type="text" placeholder="Numero 1">
-					<input type="text" placeholder="Numero 2">					
-				</form>
+		<div class="col-12 col-md-5 col-lg-3 col-xl-3" id="contenidoMatematico2">
+			<div class="" id="contentCardMartematico">
+				<div>
+					<div class="card">
+						<div class="card-header">
+							<h3><span class="pr-2"><i class="fas fa-lightbulb"></i></span>Resultado:</h3>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title">34</h1>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="mt-2" id="botones">			
-				<button type="button" class="btn btn-light" class="boton">Restar</button>
-				<button type="button" class="btn btn-light mx-3" class="boton">Sumar</button>
-				<button type="button" class="btn btn-light" class="boton">Multiplicar</button>
-			</div>
-		</div>		
-	</div>
-	<div class="col-4 mt-4">
-		<div id="resultados">
-			<h3>Resultados:</h3>
-		</div>	
-		<div class="d-flex justify-content-center align-items-center my-auto h-75">
-			<h1>34</h1>	
-		</div>	
+		</div>
 	</div>
 </div>
