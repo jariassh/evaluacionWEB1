@@ -1,5 +1,5 @@
 <div class="row justify-content-center">
-	<div class="col-12 col-md-10 mt-4 minh-100" id="tabsBancolombia">
+	<div class="col-12 col-md-10 col-xl-6 mt-4 minh-100" id="tabsBancolombia">
 		<div class="d-none d-lg-block card text-justify mb-4">
 			<div class="card-header">
 				<ul class="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">

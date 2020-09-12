@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-6 col-lg-8 mt-4" id="contenidoPostobon1">
 		<div class="row justify-content-center">
-			<div class="w-100 px-5" id="enuciadoPostobon">
+			<div id="enuciadoPostobon">
 				<p>Hacer un programa en PHP para ayudar a un trabajador de Postobón a saber cuál será su sueldo semanal, se sabe que, si trabaja 40 horas o menos, se le pagará $20.000 por hora, pero si trabaja más de 40 horas entonces las horas extras se le pagarán a $25.000 por hora.</p>
 			</div>
 		</div>
