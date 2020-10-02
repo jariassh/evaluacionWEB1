@@ -42,7 +42,20 @@
 					$txtPeso = $_POST["peso"];			
 					
 					
-					if ($txtAlturaA == "" && $txtPeso == "") {						
+					if ($txtAlturaA == "" && $txtPeso == "") {
+					echo "<script>
+				            Swal.fire({
+				              padding: '1rem',	              
+				              timerProgressBar: true,
+				              backdrop: true, 
+				              toast: false,
+				              position: 'top',
+							  icon: 'error',
+							  text: 'Uno o varios campos del formulario están vacíos.!',
+							  showConfirmButton: false,
+							  timer: 3500
+				              })            
+    				 </script>";						
 					
 			?>		<div class='col-12 col-sm-6 text-center' id='imgIMC'>
 							<img src='vistas/img/ningunImc.png' class='rounded'>
@@ -50,15 +63,15 @@
 						<div class='col-12 col-sm-6' id='cardsGym'>
 							<div class='card mb-2' id='cardsGym1'>
 							  <div class='card-header'>
-							    <strong><span class='pr-2'><i class='fas fa-weight'></i></span>SU PESO (kg)</strong>
+							    <strong><span class='pr-2'><i class='fas fa-weight'></i></span>SU IMC</strong>
 							  </div>
 							  <div class='card-body'>
-							    <p>Faltan Valores a Calcular.</p>
+							    <p>00,00</p>
 							  </div>
 							</div>
 							<div class='card mb-2' id='cardsGym2'>
 							  <div class='card-header'>
-							    <strong><span class='pr-2'><i class='fas fa-child'></i></span>SU IMC</strong>
+							    <strong><span class='pr-2'><i class='fas fa-child'></i></span>SU GRUPO IMC</strong>
 							  </div>
 							  <div class='card-body'>
 							    <p>NO HAY C&Aacute;LCULO</p>
@@ -69,21 +82,34 @@
 			<?php
 					
 					}elseif ($txtAlturaA == "" || $txtPeso == ""){
+						echo "<script>
+				            Swal.fire({
+				              padding: '1rem',	              
+				              timerProgressBar: true,
+				              backdrop: true, 
+				              toast: false,
+				              position: 'top',
+							  icon: 'warning',
+							  text: 'Un campo del formulario está vacío. Completa el formulario',
+							  showConfirmButton: false,
+							  timer: 3500
+				              })            
+    				 </script>";
 			?>		<div class='col-12 col-sm-6 text-center' id='imgIMC'>
 							<img src='vistas/img/ningunImc.png' class='rounded'>
 						</div>
 						<div class='col-12 col-sm-6' id='cardsGym'>
 							<div class='card mb-2' id='cardsGym1'>
 							  <div class='card-header'>
-							    <strong><span class='pr-2'><i class='fas fa-weight'></i></span>SU PESO (kg)</strong>
+							    <strong><span class='pr-2'><i class='fas fa-weight'></i></span>SU IMC</strong>
 							  </div>
 							  <div class='card-body'>
-							    <p><b>Ooops..!</b> Te hizo falta uno de los valores.</p>
+							    <p>00,00</p>
 							  </div>
 							</div>
 							<div class='card mb-2' id='cardsGym2'>
 							  <div class='card-header'>
-							    <strong><span class='pr-2'><i class='fas fa-child'></i></span>SU IMC</strong>
+							    <strong><span class='pr-2'><i class='fas fa-child'></i></span>SU GRUPO IMC</strong>
 							  </div>
 							  <div class='card-body'>
 							    <p>NO HAY C&Aacute;LCULO</p>

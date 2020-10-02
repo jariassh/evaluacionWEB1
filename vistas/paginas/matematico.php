@@ -36,27 +36,53 @@
 							$opt = $_POST["operacion"];
 
 							if ($numero1 == "" && $numero2 =="") {
+								echo "<script>
+								            Swal.fire({
+								              padding: '1rem',	              
+								              timerProgressBar: true,
+								              backdrop: true, 
+								              toast: false,
+								              position: 'top',
+											  icon: 'error',
+											  text: 'El formulario está vacío.!',
+											  showConfirmButton: false,
+											  timer: 3500
+								              })            
+				    				 </script>";
 								echo "<div class='card' id='cardResultMatematico'>
 										<div class='card-header'>
-											<h2><span class='pr-2'><i class='fas fa-exclamation'></i></span>Error:</h2>
+											<h2><span class='pr-2'><i class='fas fa-lightbulb'></i></span>Resultado:</h2>
 										</div>
 										<div class='card-body'>
-											<p class='card-text'>Olvidaste agregar los numeros a operar. </p>
+											<h1 class='card-title' style='font-size: 60px;'>0</h1>
 										</div>
 										<div class='card-footer'>
-											<small>ERROR</small>
+											<p>Operaci&oacute;n realizada: <b>Ninguna</b></p>
 										</div>
 									</div>";
 							}elseif($numero1 == "" || $numero2 ==""){
+								echo "<script>
+								            Swal.fire({
+								              padding: '1rem',	              
+								              timerProgressBar: true,
+								              backdrop: true, 
+								              toast: false,
+								              position: 'top',
+											  icon: 'warning',
+											  text: 'Uno de los campos está vacío.!',
+											  showConfirmButton: false,
+											  timer: 3500
+								              })            
+				    				 </script>";
 								echo "<div class='card' id='cardResultMatematico'>
 										<div class='card-header'>
-											<h2><span class='pr-2'><i class='fas fa-exclamation'></i></span>Error:</h2>
+											<h2><span class='pr-2'><i class='fas fa-lightbulb'></i></span>Resultado:</h2>
 										</div>
 										<div class='card-body'>
-											<p class='card-text'>Te falt&oacute; agregar uno de los dos n&uacute;meros. </p>
+											<h1 class='card-title' style='font-size: 60px;'>0</h1>
 										</div>
 										<div class='card-footer'>
-											<small>ERROR</small>
+											<p>Operaci&oacute;n realizada: <b>Ninguna</b></p>
 										</div>
 									</div>";
 							}else {
@@ -75,15 +101,28 @@
 										</div>
 									</div>";
 								}else {
-									echo "<div class='card' id='cardResultMatematico'>
+									echo "<script>
+								            Swal.fire({
+								              padding: '1rem',	              
+								              timerProgressBar: true,
+								              backdrop: true, 
+								              toast: false,
+								              position: 'top',
+											  icon: 'info',
+											  text: 'Te faltó elergir la operación a realizar.',
+											  showConfirmButton: false,
+											  timer: 3500
+								              })            
+				    				 </script>";
+								echo "<div class='card' id='cardResultMatematico'>
 										<div class='card-header'>
-											<h2><span class='pr-2'><i class='fas fa-exclamation'></i></span>Error:</h2>
+											<h2><span class='pr-2'><i class='fas fa-lightbulb'></i></span>Resultado:</h2>
 										</div>
 										<div class='card-body'>
-											<p class='card-text'>Tengo los n&uacute;meros a operar, pero no encuentro la operaci&oacute;n a realizar. </p>
+											<h1 class='card-title' style='font-size: 60px;'>0</h1>
 										</div>
 										<div class='card-footer'>
-											<small>ERROR</small>
+											<p>Operaci&oacute;n realizada: <b>Ninguna</b></p>
 										</div>
 									</div>";
 								}
