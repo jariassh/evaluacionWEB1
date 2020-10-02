@@ -26,43 +26,49 @@
         margin-bottom: 30px;
     }
     #enuciadoMatematico p {
-        text-align: center;
+        text-align: justify;
         font-size: 1.2em;
         font-family: 'Kite+One', sans-serif;
     }
-    #formMatematico {
+    #contentFormMatematico {
+        display: flex;
+        justify-content: center;
+    }
+    #formMatematico { 
+        display: block;       
+        margin: 0 auto;
+        justify-content: center;
+    }
+    #formularioMatematico {
         display: flex;
         justify-content: center;
     }
     #formularioMatematico input {
-        width: 300px;
-        height: 35px;
+        width: 280px;
+        height: 40px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
     }
-    #btnsMatematico {
-        width: 100%;
-        height: 40px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+    #formularioMatematico select {
+        text-align-last: center;
     }
-    #btnsMatematico button {
-        width: 100px !important;
-    }
-    #btnSumar {
-        margin: 0 20px;
-    }
+    #formularioMatematico button {
+        margin: 25px 0 25px 40px;
+        width: 200px;
+    }    
     #contentCardMartematico {
-        min-height: calc(100vh - 200px - 250px);
+        min-height: calc(100vh - 200px - 210px);
         margin-right: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin: auto 0;
         display: flex;
+    }
+    #cardResultMatematico{
+        width: 20rem;
     }
     #contentCardMartematico i {
         color: #FFBD00;
@@ -204,31 +210,34 @@
         font-size: 1.2em;
         font-family: 'Kite+One', sans-serif;
     }
-    #formMatematico {
+    #contentFormMatematico {
+        display: flex;
+        justify-content: center;
+    }
+    #formMatematico { 
+        display: block;       
+        margin: 0 auto;
+        justify-content: center;
+    }
+    #formularioMatematico {
         display: flex;
         justify-content: center;
     }
     #formularioMatematico input {
-        width: 300px;
-        height: 35px;
+        width: 280px;
+        height: 40px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
     }
-    #btnsMatematico {
-        width: 100%;
-        height: 40px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+    #formularioMatematico select {
+        text-align-last: center;
     }
-    #btnsMatematico button {
-        width: 100px !important;
-    }
-    #btnSumar {
-        margin: 0 20px;
-    }
+    #formularioMatematico button {
+        margin: 25px 0 25px 40px;
+        width: 200px;
+    }    
     #contenidoMatematico2 {
         justify-content: center;
         display: flex;
@@ -236,8 +245,12 @@
         margin-bottom: 30px;
         float: left;
     }
+
     #contentCardMartematico i {
         color: #FFBD00;
+    }
+    #cardResultMatematico{
+        width: 18rem;
     }
     #contenidoGym1 {
         border-right: 1px solid #aaa;
@@ -374,31 +387,34 @@
         font-size: 1.2em;
         font-family: 'Kite+One', sans-serif;
     }
-    #formMatematico {
+    #contentFormMatematico {
+        display: flex;
+        justify-content: center;
+    }
+    #formMatematico { 
+        display: block;       
+        margin: 0 auto;
+        justify-content: center;
+    }
+    #formularioMatematico {
         display: flex;
         justify-content: center;
     }
     #formularioMatematico input {
-        width: 300px;
-        height: 35px;
+        width: 280px;
+        height: 43px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
     }
-    #btnsMatematico {
-        width: 100%;
-        height: 40px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+    #formularioMatematico select {
+        text-align-last: center;
     }
-    #btnsMatematico button {
-        width: 100px !important;
-    }
-    #btnSumar {
-        margin: 0 20px;
-    }
+    #formularioMatematico button {
+        margin: 25px 0 25px 40px;
+        width: 200px;
+    }    
     #contenidoMatematico2 {
         justify-content: center;
         display: flex;
@@ -406,8 +422,12 @@
         margin-bottom: 30px;
         float: left;
     }
+
     #contentCardMartematico i {
         color: #FFBD00;
+    }
+    #cardResultMatematico{
+        width: 15rem;
     }
     #contenidoGym1 {
         margin-bottom: 30px;
@@ -555,7 +575,7 @@
         width: 25rem;
     }
 }
-/* Revisamos pantallas SM ( > 576 PX < 767 PX) */
+/* Revisamos pantallas SM ( >= 576 PX < 767 PX) */
 
 @media (min-width: 576px) and (max-width: 767px) {
     #saludo {
@@ -580,32 +600,33 @@
         font-family: 'Kite+One', sans-serif;
     }
     #contentFormMatematico {
-        height: 240px;
-    }
+        display: flex;
+        justify-content: center; 
+        padding: 0 0 0 45px;
+        margin: 0 10px 0 10px;
+        background-color: #F8F9FA;        
+    }    
     #formMatematico {
         display: flex;
         justify-content: center;
+        margin: 0 auto;
     }
     #formularioMatematico input {
-        width: 400px;
-        height: 35px;
+        width: 300px;
+        height: 40px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
     }
-    #btnsMatematico {
-        justify-content: center;
-        display: flex;
-        margin: 0 auto;
-        text-align: center;
+    #formularioMatematico select {
+        width: 300px;
+        text-align-last: center;
     }
-    #btnsMatematico button {
-        width: 150px !important;
-    }
-    #btnSumar {
-        margin: 0 20px;
-    }
+    #formularioMatematico button {
+        margin: 25px 0 25px 40px;
+        width: 200px;
+    } 
     #contenidoMatematico2 {
         justify-content: center;
         display: flex;
@@ -784,41 +805,51 @@
         text-align: center;
     }
     #contenidoMatematico1 {
-        margin-bottom: 15px;
+        margin: 0 0 15px 2px;
         float: left;
+        
     }
     #enuciadoMatematico p {
         text-align: justify;
         font-size: 1.3em;
         font-family: 'Kite+One', sans-serif;
     }
+    #contentFormMatematico {
+        display: flex;
+        justify-content: center; 
+        background-color: #F8F9FA;  
+    }    
+    #formMatematico {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
     #formularioMatematico input {
-        width: 100%;
-        height: 35px;
+        width: 280px;
+        height: 40px;
         border-radius: 5px;
         text-align: center;
         display: block;
         margin-bottom: 15px;
     }
-    #btnsMatematico {
+    #formularioMatematico select {
+        width: 280px;
+        text-align-last: center;
+    }
+    #formularioMatematico button {
+        margin: 25px 0 25px 40px;
         width: 200px;
-        justify-content: center;
-        display: block;
-        margin: 0 auto;
-    }
-    #btnsMatematico button {
-        width: 200px !important;
-        margin: 10px 0;
-    }
+    } 
     #contenidoMatematico2 {
         justify-content: center;
         display: flex;
-        margin: 30px auto 0;
+        margin: 30px 0 0 0;
         margin-bottom: 30px;
         float: left;
+        
     }
     #contentCardMartematico {
-        width: 75%;
+        width: 100%;
         text-align: center;
     }
     #contentCardMartematico i {

@@ -19,6 +19,10 @@
 	<!-- CSS Styles -->
 	<link rel="stylesheet" href="vistas/css/estilos.css">
 	<link rel="stylesheet" href="vistas/css/resoluciones.css">
+
+	<!-- Sweet Alert Files JS-->	
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </head>
 <body>
 
@@ -49,53 +53,53 @@
 						<?php if (isset($_GET["pagina"])): ?>
 							<?php if ($_GET["pagina"] == "inicio"): ?>
 								<a class="nav-item nav-link btn btn-light btnMenuActive" href="inicio"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-home"></i></span>Inicio</a>
-								<?php else: ?>
-									<a class="nav-item nav-link btn btn-light" href="inicio"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-home"></i></span>Inicio</a>
-								<?php endif?>
-								<?php if ($_GET["pagina"] == "matematico"): ?>
-									<a class="nav-item nav-link btn btn-light btnMenuActive" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
-									<?php else: ?>
-										<a class="nav-item nav-link btn btn-light" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
-									<?php endif?>
-									<?php if ($_GET["pagina"] == "gimnasio-bodytech"): ?>
-										<a class="nav-item nav-link btn btn-light btnMenuActive" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
-										<?php else: ?>
-											<a class="nav-item nav-link btn btn-light" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
-										<?php endif?>
-										<?php if ($_GET["pagina"] == "spring-step"): ?>
-											<a class="nav-item nav-link btn btn-light btnMenuActive" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
-											<?php else: ?>
-												<a class="nav-item nav-link btn btn-light" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
-											<?php endif?>
-											<?php if ($_GET["pagina"] == "postobon"): ?>
-												<a class="nav-item nav-link btn btn-light btnMenuActive" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
-												<?php else: ?>
-													<a class="nav-item nav-link btn btn-light" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
-												<?php endif?>
-												<?php if ($_GET["pagina"] == "bancolombia"): ?>
-													<a class="nav-item nav-link btn btn-light btnMenuActive" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
-													<?php else: ?>
-														<a class="nav-item nav-link btn btn-light" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
-													<?php endif?>
-													<?php if ($_GET["pagina"] == "salir"): ?>
-														<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
-														<?php else: ?>
-															<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
-														<?php endif?>
-														<?php else: ?>
-															<a class="nav-item nav-link btn btn-light" href="inicio"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-home"></i></span>Inicio</a>
-															<a class="nav-item nav-link btn btn-light" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
-															<a class="nav-item nav-link btn btn-light" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
-															<a class="nav-item nav-link btn btn-light" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
-															<a class="nav-item nav-link btn btn-light" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
-															<a class="nav-item nav-link btn btn-light" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
-															<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
-														<?php endif?>
-													</div>
-												</div>
-											</nav>
-										</div>
-									</div>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="inicio"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-home"></i></span>Inicio</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "matematico"): ?>
+								<a class="nav-item nav-link btn btn-light btnMenuActive" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "gimnasio-bodytech"): ?>
+								<a class="nav-item nav-link btn btn-light btnMenuActive" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "spring-step"): ?>
+								<a class="nav-item nav-link btn btn-light btnMenuActive" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "postobon"): ?>
+								<a class="nav-item nav-link btn btn-light btnMenuActive" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "bancolombia"): ?>
+								<a class="nav-item nav-link btn btn-light btnMenuActive" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
+							<?php endif?>
+							<?php if ($_GET["pagina"] == "salir"): ?>
+								<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
+							<?php endif?>
+							<?php else: ?>
+								<a class="nav-item nav-link btn btn-light" href="inicio"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-home"></i></span>Inicio</a>
+								<a class="nav-item nav-link btn btn-light" href="matematico"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-calculator"></i></span>Matemático</a>
+								<a class="nav-item nav-link btn btn-light" href="gimnasio-bodytech"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-dumbbell"></i></span>Gimnasio</a>
+								<a class="nav-item nav-link btn btn-light" href="spring-step"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-cart-plus"></i></span>Spring Step</a>
+								<a class="nav-item nav-link btn btn-light" href="postobon"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-industry"></i></span>Postobón</a>
+								<a class="nav-item nav-link btn btn-light" href="bancolombia"><span class="d-md-block d-lg-inline pr-1"><i class="fas fa-money-check-alt"></i></span>Bancolombia</a>
+								<a class="nav-item nav-link btn btn-light" href="#"><span class="d-md-block d-lg-inline pr-2"><i class="fas fa-door-open"></i></span>Cerrar Sesión</a>
+							<?php endif?>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
 	<!--==============================
 	=            BOTONERA <= MD           =
 	===============================-->

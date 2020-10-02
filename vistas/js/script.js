@@ -5,3 +5,11 @@ $(function (){
 	});
 })
 
+
+var txtAltura = document.getElementById('txtAltura1');
+
+txtAltura.addEventListener('keyup', () =>{
+    var txtValor = txtAltura.value;
+    document.getElementById('txtAltura2').value = txtValor;
+});
+
