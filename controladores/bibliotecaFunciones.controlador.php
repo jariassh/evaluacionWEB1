@@ -140,3 +140,17 @@ function DescuentoSpring($cantidad) {
 		return $descuento;    	
 	}
 }
+
+function CalcularSalario($cantHoras){
+
+	if ($cantHoras >= 1 && $cantHoras <= 40) {
+		$salario = $cantHoras * 20000;
+		return $salario;
+
+	}elseif ($cantHoras > 40 ){
+		$HrsExtras = $cantHoras - 40;
+		$salario = $HrsExtras * 25000;
+		return $salario;
+	}
+
+}

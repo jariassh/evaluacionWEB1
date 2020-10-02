@@ -66,6 +66,10 @@
 .btnAcordeon {
     color: #000;
 }
+/*.tables {
+    border-collapse: collapse;
+    table-layout: fixed;
+}*/
 footer {
     background-color: #f8f9fa;
     width: 100%;
