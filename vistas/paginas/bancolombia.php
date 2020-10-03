@@ -22,61 +22,49 @@
 			  </div>
 			  <div class="tab-pane fade" id="nav-registro" role="tabpanel" aria-labelledby="nav-registro-tab">
 			  	<div class="bg-light">
-			  		<div class="row">
-				  		<div class="col-6 d-flex justify-content-end text-center">
-							<form class="pt-5 pb-4" method="post">
-								<div class="form-group">
-									<label for="nombre">Nombre:</label>
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text"><i class="fas fa-user-plus"></i></span>
-										</div>
-										<input type="text" class="form-control" id="nombre" name="registroNombre">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="telefono">Teléfono:</label>
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
-										</div>
-										<input type="text" class="form-control" id="telefono" name="registroTelefono">
-									</div>
-								</div>
-							</form>
-				  		</div>
-				  		<div class="col-6 d-flex justify-content-start text-center">
-					  		<form class="pt-5 pb-4" method="post">
-								<div class="form-group">
-									<label for="direccion">Dirección:</label>
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
-										</div>
-										<input type="text" class="form-control" id="direccion" name="registroDireccion">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="salario">Salario:</label>
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text"><i class="fas fa-coins"></i></span>
-										</div>
-										<input type="text" class="form-control" id="salario" name="registroSalario">
-									</div>
-								</div>
-							</form>
+			  		<div class="row justify-content-center">
+			  			<form action="" method="post" class="p-5">
+						  <div class="row">
+						    <div class="col">						    	
+						    	<label for="nombre">Nombre</label>
+						    	<div class="input-group mb-2">
+						    		<div class="input-group-prepend">
+						    			<div class="input-group-text"><span><i class="fas fa-user-plus"></i></span></div>
+						    		</div>
+						    		<input type="text" class="form-control" id="nombre">
+						    	</div>
+						    	<label for="direccion">Direcci&oacute;n</label>
+						    	<div class="input-group mb-2">
+						    		<div class="input-group-prepend">
+						    			<div class="input-group-text"><span><i class="fas fa-map-marked-alt"></i></span></div>
+						    		</div>
+						    		<input type="text" class="form-control" id="direccion">
+						    	</div>						    	
+						    </div>
+						    <div class="col">
+						    	<label for="telefono">Tel&eacute;fono</label>
+						    	<div class="input-group mb-4">
+						    		<div class="input-group-prepend">
+						    			<div class="input-group-text"><span><i class="fas fa-phone-alt"></i></span></div>
+						    		</div>
+						    		<input type="text" class="form-control" id="telefono">
+						    	</div>						    	
+						    	<label for="salario">Salario</label>
+						    	<div class="input-group mb-4">
+						    		<div class="input-group-prepend">
+						    			<div class="input-group-text"><span><i class="fas fa-coins"></i></span></div>
+						    		</div>
+						    		<input type="text" class="form-control" id="salario">
+						    	</div>						    	
+						    </div>
+						  </div>
+						  <div class="row justify-content-center">
+						  	<button class="btn btn-primary mt-3" type="submit" name="registrar">Registrar</button>
+						  </div>
+						</form>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 d-flex justify-content-center text-center">
-							<form class="pb-5" method="post">
-								<button type="submit" class="btn btn-primary">Registrar</button>
-							</form>
-						</div>
-					</div>
-			  	</div>
-			  </div>
+					</div>					
+			  	</div>			  
 			  <div class="tab-pane fade" id="nav-usuarios" role="tabpanel" aria-labelledby="nav-usuarios-tab">
 			  	<div class="text-center">
 			  		<h4>Usuarios Sucursal A</h4>
